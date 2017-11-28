@@ -1,0 +1,68 @@
+LOCUS       pAG32                   1637 bp    ds-DNA  linear   UNK 26-NOV-2012
+DEFINITION  .
+ACCESSION   pAG32
+VERSION     pAG32
+KEYWORDS    .
+SOURCE      Unknown
+  ORGANISM  Unknown Unclassified. . . .
+            .
+REFERENCE   1  (bases 1 to 4160)
+  AUTHORS   Self
+  JOURNAL   Unpublished.
+COMMENT     
+            ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    1..368
+                     /product="TEF-PRO"
+                     /gene="TEF-PRO"
+                     /label="TEF-PRO"
+                     /ApEinfo_fwdcolor="#00ff69"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             369..1397
+                     /product="hygromycin B phosphotransferase"
+                     /gene="hph"
+                     /label="hygromycin B phosphotransferase"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1398..1637
+                     /product="TEF-TER"
+                     /gene="TEF-TER"
+                     /label="TEF-TER"
+                     /ApEinfo_fwdcolor="#00ff69"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 tccccgccgg gtcacccggc cagcgacatg gaggcccaga ataccctcct tgacagtctt
+       61 gacgtgcgca gctcaggggc atgatgtgac tgtcgcccgt acatttagcc catacatccc
+      121 catgtataat catttgcatc catacatttt gatggccgca cggcgcgaag caaaaattac
+      181 ggctcctcgc tgcagacctg cgagcaggga aacgctcccc tcacagacgc gttgaattgt
+      241 ccccacgccg cgcccctgta gagaaatata aaaggttagg atttgccact gaggttcttc
+      301 tttcatatac ttccttttaa aatcttgcta ggatacagtt ctcacatcac atccgaacat
+      361 aaacaaccat gggtaaaaag cctgaactca ccgcgacgtc tgtcgagaag tttctgatcg
+      421 aaaagttcga cagcgtctcc gacctgatgc agctctcgga gggcgaagaa tctcgtgctt
+      481 tcagcttcga tgtaggaggg cgtggatatg tcctgcgggt aaatagctgc gccgatggtt
+      541 tctacaaaga tcgttatgtt tatcggcact ttgcatcggc cgcgctcccg attccggaag
+      601 tgcttgacat tggggaattc agcgagagcc tgacctattg catctcccgc cgtgcacagg
+      661 gtgtcacgtt gcaagacctg cctgaaaccg aactgcccgc tgttctgcag ccggtcgcgg
+      721 aggccatgga tgcgatcgct gcggccgatc ttagccagac gagcgggttc ggcccattcg
+      781 gaccgcaagg aatcggtcaa tacactacat ggcgtgattt catatgcgcg attgctgatc
+      841 cccatgtgta tcactggcaa actgtgatgg acgacaccgt cagtgcgtcc gtcgcgcagg
+      901 ctctcgatga gctgatgctt tgggccgagg actgccccga agtccggcac ctcgtgcacg
+      961 cggatttcgg ctccaacaat gtcctgacgg acaatggccg cataacagcg gtcattgact
+     1021 ggagcgaggc gatgttcggg gattcccaat acgaggtcgc caacatcttc ttctggaggc
+     1081 cgtggttggc ttgtatggag cagcagacgc gctacttcga gcggaggcat ccggagcttg
+     1141 caggatcgcc gcggctccgg gcgtatatgc tccgcattgg tcttgaccaa ctctatcaga
+     1201 gcttggttga cggcaatttc gatgatgcag cttgggcgca gggtcgatgc gacgcaatcg
+     1261 tccgatccgg agccgggact gtcgggcgta cacaaatcgc ccgcagaagc gcggccgtct
+     1321 ggaccgatgg ctgtgtagaa gtactcgccg atagtggaaa ccgacgcccc agcactcgtc
+     1381 cgagggcaaa ggaataatca gtactgacaa taaaaagatt cttgttttca agaacttgtc
+     1441 atttgtatag tttttttata ttgtagttgt tctattttaa tcaaatgtta gcgtgattta
+     1501 tatttttttt cgcctcgaca tcatctgccc agatgcgaag ttaagtgcgc agaaagtaat
+     1561 atcatgcgtc aatcgtatgt gaatgctggt cgctatactg ctgtcgattc gatactaacg
+     1621 ccgccatcca gtgtcga
+//

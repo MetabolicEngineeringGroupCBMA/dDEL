@@ -1,0 +1,216 @@
+LOCUS       na                      5090 bp    DNA     circular UNK 01-JUN-2016
+DEFINITION  @
+ACCESSION   -
+VERSION     -
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_binding    36..39
+                     /bound_moiety="echinomycin"
+                     /gene="tet"
+     misc_difference 51
+                     /citation=[11]
+                     /gene="tet"
+                     /note="conflict"
+                     /replace=""
+     misc_binding    94..97
+                     /bound_moiety="echinomycin"
+                     /gene="tet"
+     old_sequence    151..153
+                     /citation=[17]
+                     /gene="tet"
+     repeat_region   complement(1140..1144)
+                     /note="gamma-delta insertion target sequence"
+                     /rpt_type=direct
+     misc_feature    1261..1387
+                     /note="from pSC101 (bp 1860-1986)"
+     repeat_region   complement(1413..1417)
+                     /note="gamma-delta insertion target sequence"
+                     /rpt_type=direct
+     misc_difference 1516..1517
+                     /citation=[23]
+                     /note="conflict"
+                     /replace="att"
+     old_sequence    1517..1518
+                     /citation=[2]
+                     /citation=[22]
+     regulatory      1530..1535
+                     /regulatory_class="ribosome_binding_site"
+     regulatory      1530..1534
+                     /note="Shine-Dalgarno sequence"
+                     /regulatory_class="ribosome_binding_site"
+     misc_difference 1538..1539
+                     /citation=[23]
+                     /note="conflict"
+                     /replace="caa"
+     old_sequence    1539..1540
+                     /citation=[17]
+     CDS             1540..1731
+                     /codon_start=1
+                     /db_xref="GI:456436"
+                     /product="ROP protein"
+                     /protein_id="AAB59736.1"
+                     /transl_table=11
+                     /translation="MTKQEKTALNMARFIRSQTLTLLEKLNELDADEQADICESLHDHA
+                     DELYRSCLARFGDDGENL"
+     misc_feature    1636..1792
+                     /citation=[5]
+                     /note="H-strand Y effector site"
+     repeat_region   complement(1870..1874)
+                     /note="gamma-delta insertion target sequence"
+                     /rpt_type=direct
+     misc_feature    complement(1976..2039)
+                     /citation=[5]
+                     /note="L-strand Y effector site"
+     misc_binding    2064..2072
+                     /bound_moiety="dnaA"
+     rep_origin      2160
+     old_sequence    2354..2355
+                     /citation=[2]
+                     /citation=[17]
+                     /note="revision according to (17)"
+                     /replace="at"
+     old_sequence    2354
+                     /citation=[17]
+     old_sequence    2355
+                     /citation=[2]
+                     /citation=[16]
+                     /citation=[17]
+                     /note="revision according to (16)"
+                     /replace="t"
+     mobile_element  2773..3986
+                     /mobile_element_type="transposon:Tn3"
+     repeat_region   2773..2810
+                     /note="corresponds to one of the 38bp repeats found in Tn3
+                     (bp 1-38 and complement (4920-4957))"
+                     /rpt_type=inverted
+     gene            complement(2918..3778)
+                     /gene="bla"
+     CDS             complement(2918..3778)
+                     /codon_start=1
+                     /db_xref="GI:455370"
+                     /gene="bla"
+                     /note="E-286"
+                     /product="beta-lactamase"
+                     /protein_id="AAB59737.1"
+                     /transl_table=11
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
+     mat_peptide     complement(2921..3709)
+                     /gene="bla"
+                     /product="beta-lactamase"
+     sig_peptide     complement(3710..3778)
+                     /gene="bla"
+     regulatory      complement(3786..3790)
+                     /note="Shine-Dalgarno sequence"
+                     /regulatory_class="ribosome_binding_site"
+     regulatory      complement(3813..3819)
+                     /note="promoter P3 (6)"
+                     /regulatory_class="promoter"
+     misc_binding    complement(3893..3896)
+                     /bound_moiety="echinomycin"
+     misc_binding    complement(3905..3908)
+                     /bound_moiety="echinomycin"
+     misc_binding    complement(3910..3913)
+                     /bound_moiety="echinomycin"
+     misc_binding    complement(3921..3924)
+                     /bound_moiety="echinomycin"
+     misc_binding    complement(3936..3939)
+                     /bound_moiety="echinomycin"
+     misc_binding    complement(3942..3945)
+                     /bound_moiety="echinomycin"
+     misc_binding    complement(3956..3959)
+                     /bound_moiety="echinomycin"
+ORIGIN
+        1 gatcctctac gccggacgca tcgtggccgg catcaccggc gccacaggtg cggttgctgg
+       61 cgcctatatc gccgacatca ccgatgggga agatcgggct cgccacttcg ggctcatgag
+      121 cgcttgtttc ggcgtgggta tggtggcagg ccccgtggcc gggggactgt tgggcgccat
+      181 ctccttgcat gcaccattcc ttgcggcggc ggtgctcaac ggcctcaacc tactactggg
+      241 ctgcttccta atgcaggagt cgcataaggg agagcgtcga ccgatgccct tgagagcctt
+      301 caacccagtc agctccttcc ggtgggcgcg gggcatgact atcgtcgccg cacttatgac
+      361 tgtcttcttt atcatgcaac tcgtaggaca ggtgccggca gcgctctggg tcattttcgg
+      421 cgaggaccgc tttcgctgga gcgcgacgat gatcggcctg tcgcttgcgg tattcggaat
+      481 cttgcacgcc ctcgctcaag ccttcgtcac tggtcccgcc accaaacgtt tcggcgagaa
+      541 gcaggccatt atcgccggca tggcggccga cgcgctgggc tacgtcttgc tggcgttcgc
+      601 gacgcgaggc tggatggcct tccccattat gattcttctc gcttccggcg gcatcgggat
+      661 gcccgcgttg caggccatgc tgtccaggca ggtagatgac gaccatcagg gacagcttca
+      721 aggatcgctc gcggctctta ccagcctaac ttcgatcact ggaccgctga tcgtcacggc
+      781 gatttatgcc gcctcggcga gcacatggaa cgggttggca tggattgtag gcgccgccct
+      841 ataccttgtc tgcctccccg cgttgcgtcg cggtgcatgg agccgggcca cctcgacctg
+      901 aatggaagcc ggcggcacct cgctaacgga ttcaccactc caagaattgg agccaatcaa
+      961 ttcttgcgga gaactgtgaa tgcgcaaacc aacccttggc agaacatatc catcgcgtcc
+     1021 gccatctcca gcagccgcac gcggcgcatc tcgggcagcg ttgggtcctg gccacgggtg
+     1081 cgcatgatcg tgctcctgtc gttgaggacc cggctaggct ggcggggttg ccttactggt
+     1141 tagcagaatg aatcaccgat acgcgagcga acgtgaagcg actgctgctg caaaacgtct
+     1201 gcgacctgag caacaacatg aatggtcttc ggtttccgtg tttcgtaaag tctggaaacg
+     1261 cggaagtcag cgccctgcac cattatgttc cggatctgca tcgcaggatg ctgctggcta
+     1321 ccctgtggaa cacctacatc tgtattaacg aagcgctggc attgaccctg agtgattttt
+     1381 ctctggtccc gccgcatcca taccgccagt tgtttaccct cacaacgttc cagtaaccgg
+     1441 gcatgttcat catcagtaac ccgtatcgtg agcatcctct ctcgtttcat cggtatcatt
+     1501 acccccatga acagaaatcc cccttacacg gaggcatcag tgaccaaaca ggaaaaaacc
+     1561 gcccttaaca tggcccgctt tatcagaagc cagacattaa cgcttctgga gaaactcaac
+     1621 gagctggacg cggatgaaca ggcagacatc tgtgaatcgc ttcacgacca cgctgatgag
+     1681 ctttaccgca gctgcctcgc gcgtttcggt gatgacggtg aaaacctctg acacatgcag
+     1741 ctcccggaga cggtcacagc ttgtctgtaa gcggatgccg ggagcagaca agcccgtcag
+     1801 ggcgcgtcag cgggtgttgg cgggtgtcgg ggcgcagcca tgacccagtc acgtagcgat
+     1861 agcggagtgt atactggctt aactatgcgg catcagagca gattgtactg agagtgcacc
+     1921 atatgcggtg tgaaataccg cacagatgcg taaggagaaa ataccgcatc aggcgctctt
+     1981 ccgcttcctc gctcactgac tcgctgcgct cggtcgttcg gctgcggcga gcggtatcag
+     2041 ctcactcaaa ggcggtaata cggttatcca cagaatcagg ggataacgca ggaaagaaca
+     2101 tgtgagcaaa aggccagcaa aaggccagga accgtaaaaa ggccgcgttg ctggcgtttt
+     2161 tccataggct ccgcccccct gacgagcatc acaaaaatcg acgctcaagt cagaggtggc
+     2221 gaaacccgac aggactataa agataccagg cgtttccccc tggaagctcc ctcgtgcgct
+     2281 ctcctgttcc gaccctgccg cttaccggat acctgtccgc ctttctccct tcgggaagcg
+     2341 tggcgctttc tcatagctca cgctgtaggt atctcagttc ggtgtaggtc gttcgctcca
+     2401 agctgggctg tgtgcacgaa ccccccgttc agcccgaccg ctgcgcctta tccggtaact
+     2461 atcgtcttga gtccaacccg gtaagacacg acttatcgcc actggcagca gccactggta
+     2521 acaggattag cagagcgagg tatgtaggcg gtgctacaga gttcttgaag tggtggccta
+     2581 actacggcta cactagaagg acagtatttg gtatctgcgc tctgctgaag ccagttacct
+     2641 tcggaaaaag agttggtagc tcttgatccg gcaaacaaac caccgctggt agcggtggtt
+     2701 tttttgtttg caagcagcag attacgcgca gaaaaaaagg atctcaagaa gatcctttga
+     2761 tcttttctac ggggtctgac gctcagtgga acgaaaactc acgttaaggg attttggtca
+     2821 tgagattatc aaaaaggatc ttcacctaga tccttttaaa ttaaaaatga agttttaaat
+     2881 caatctaaag tatatatgag taaacttggt ctgacagtta ccaatgctta atcagtgagg
+     2941 cacctatctc agcgatctgt ctatttcgtt catccatagt tgcctgactc cccgtcgtgt
+     3001 agataactac gatacgggag ggcttaccat ctggccccag tgctgcaatg ataccgcgag
+     3061 acccacgctc accggctcca gatttatcag caataaacca gccagccgga agggccgagc
+     3121 gcagaagtgg tcctgcaact ttatccgcct ccatccagtc tattaattgt tgccgggaag
+     3181 ctagagtaag tagttcgcca gttaatagtt tgcgcaacgt tgttgccatt gctgcaggca
+     3241 tcgtggtgtc acgctcgtcg tttggtatgg cttcattcag ctccggttcc caacgatcaa
+     3301 ggcgagttac atgatccccc atgttgtgca aaaaagcggt tagctccttc ggtcctccga
+     3361 tcgttgtcag aagtaagttg gccgcagtgt tatcactcat ggttatggca gcactgcata
+     3421 attctcttac tgtcatgcca tccgtaagat gcttttctgt gactggtgag tactcaacca
+     3481 agtcattctg agaatagtgt atgcggcgac cgagttgctc ttgcccggcg tcaacacggg
+     3541 ataataccgc gccacatagc agaactttaa aagtgctcat cattggaaaa cgttcttcgg
+     3601 ggcgaaaact ctcaaggatc ttaccgctgt tgagatccag ttcgatgtaa cccactcgtg
+     3661 cacccaactg atcttcagca tcttttactt tcaccagcgt ttctgggtga gcaaaaacag
+     3721 gaaggcaaaa tgccgcaaaa aagggaataa gggcgacacg gaaatgttga atactcatac
+     3781 tcttcctttt tcaatattat tgaagcattt atcagggtta ttgtctcatg agcggataca
+     3841 tatttgaatg tatttagaaa aataaacaaa taggggttcc gcgcacattt ccccgaaaag
+     3901 tgccacctga cgtctaagaa accattatta tcatgacatt aacctataaa aataggcgta
+     3961 tcacgaggcc ctttcgtctt caagaattct catgtttgac agcttatcat cggctggtcg
+     4021 ctaatcgttg agtgcattgg tgacttacac atagacgacc atcacaccac tgaagactgc
+     4081 gggattgctc tcggtcaagc ttttaaagag gccctagggg ccgtgcgtgg agtaaaaagg
+     4141 tttggatcag gatttgcgcc tttggatgag gcactttcca gagcggtggt agatctttcg
+     4201 aacaggccgt acgcagttgt cgaacttggt ttgcaaaggg agaaagtagg agatctctct
+     4261 tgcgagatga tcccgcattt tcttgaaagc tttgcagagg ctagcagaat taccctccac
+     4321 gttgattgtc tgcgaggcaa gaatgatcat caccgtagtg agagtgcgtt caaggctctt
+     4381 gcggttgcca taagagaagc cacctcgccc aatggtacca acgatgttcc ctccaccaaa
+     4441 ggtgttctta tgtagtgaca ccgattattt aaagctgcag catacgatat atatacatgt
+     4501 gtatatatgt atacctatga atgtcagtaa gtatgtatac gaacagtatg atactgaaga
+     4561 tgacaaggta atgcatcatt ctatacgtgt cattctgaac gaggcgcgct ttcctttttt
+     4621 ctttttgctt tttctttttt tttctcttga actcgagaaa aaaaatataa aagagatgga
+     4681 ggaacgggaa aaagttagtt gtggtgatag gtggcaagtg gtattccgta agaacaacaa
+     4741 gaaaagcatt tcatattatg gctgaactga gcgaacaagt gcaaaattta agcatcaacg
+     4801 acaacaacga gaatggttat gttcctcctc acttaagagg aaaaccaaga agtgccagaa
+     4861 ataacagtag caactacaat aacaacaacg gcggctacaa cggtggccgt ggcggtggca
+     4921 gcttctttag caacaaccgt cgtggtggtt acggcaacgg tggtttcttc ggtggaaaca
+     4981 acggtggcag cagatctaac ggccgttctg gtggtagatg gatcgatggc aaacatgtcc
+     5041 cagctccaag aaacgaaaag gccgagatcg ccatatttgg tgtccccgag
+//
