@@ -1,7 +1,6 @@
 # The dDEL assay
 
-
-### [The structure of the pRS6 plasmid](The_structure_of_the_pRS6_plasmid.ipynb)
+### [The structure of the pRS6 plasmid](The_structure_of_the_pRS6_plasmid_used_in_the_del_assay.ipynb)
 
 This notebook contains a compilation of information on the construction of the pRS6 plasmid that was used to
 construct the original DEL cassette.
