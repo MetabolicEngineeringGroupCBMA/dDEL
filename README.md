@@ -13,6 +13,19 @@ This notebook shows how the pPS1 plasmid was constructed.
 
 This notebook shows how a part of the pPS1 plasmid was integrated in the S. cerevisiae genome.
 
+## Automatic testing
+
+[![Build Status](https://travis-ci.org/MetabolicEngineeringGroupCBMA/dDEL.svg?branch=master)](https://travis-ci.org/MetabolicEngineeringGroupCBMA/dDEL)
+
+Jupyter notebooks in this repository are tested using a continuous integration service. 
+A fresh install of all depending software is performed once per month or whenever the files in this repository change.
+The tests compare the previously saved output from each code cell with a newly calculated output. 
+If the content do not match for any cell, the badge above turns red. 
+The bagde is also a link to the server where the tests are performed.
+
+The contents of this repository is released under the MIT [Licence](Licence.md)
+
+
 
 
 
