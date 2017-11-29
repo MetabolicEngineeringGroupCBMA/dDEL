@@ -6,7 +6,7 @@ rm Miniconda_latest.sh
 conda config --set always_yes yes --set show_channel_urls yes
 conda update conda
 conda config --add channels BjornFJohansson
-conda create -qy -n testenv python=3.6 nbval pytest lxml requests
+conda create -qy -n testenv python=3.5 nbval pytest lxml requests
 source activate testenv
 which python
 python --version
