@@ -16,6 +16,7 @@ This notebook shows how a part of the pPS1 plasmid was integrated in the S. cere
 ## Automatic testing
 
 [![Build Status](https://travis-ci.org/MetabolicEngineeringGroupCBMA/dDEL.svg?branch=master)](https://travis-ci.org/MetabolicEngineeringGroupCBMA/dDEL)
+[ ![Codeship Status for MetabolicEngineeringGroupCBMA/dDEL](https://app.codeship.com/projects/baa24440-c327-0135-9197-5691d0f358d5/status?branch=master)](https://app.codeship.com/projects/260680)
 
 Jupyter notebooks in this repository are tested using a continuous integration service. 
 A fresh install of all depending software is performed once per month or whenever the files in this repository change.
