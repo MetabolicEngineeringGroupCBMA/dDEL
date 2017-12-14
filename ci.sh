@@ -8,7 +8,8 @@ then
     rm Miniconda_latest.sh
     conda config --set always_yes yes --set show_channel_urls yes
     conda update conda
-    conda config --add channels BjornFJohansson
+    conda config --append channels conda-forge
+    conda config --append channels BjornFJohansson
 else
     echo "Not running on CI server, probably running on local computer"
     local_computer=true
