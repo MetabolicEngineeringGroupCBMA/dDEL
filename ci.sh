@@ -15,8 +15,8 @@ else
     local_computer=true
 fi
 
-conda create -y -n dDEL_testenv python=3.6 nbval pytest beautifulsoup4 lxml requests
-source activate dDEL_testenv
+conda create -y -n testing_environment python=3.6 nbval pytest beautifulsoup4 lxml requests
+source activate testing_environment
 which python
 python --version
 conda install pydna
