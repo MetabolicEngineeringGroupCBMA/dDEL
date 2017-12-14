@@ -14,7 +14,7 @@ else
     local_computer=true
 fi
 
-conda create -y -n dDEL_testenv python=3.6 nbval pytest lxml requests beautifulsoup4
+conda create -y -n dDEL_testenv python=3.6 nbval pytest beautifulsoup4 lxml requests
 source activate dDEL_testenv
 which python
 python --version
