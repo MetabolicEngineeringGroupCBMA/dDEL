@@ -1,6 +1,6 @@
-sudo: required
-dist: trusty
-group: deprecated-2017Q4
+#sudo: required
+#dist: trusty
+#group: deprecated-2017Q4
 script:
  - bash ci.sh
 notifications:
