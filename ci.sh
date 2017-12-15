@@ -8,22 +8,17 @@ then
     rm Miniconda_latest.sh
     conda config --set always_yes yes --set show_channel_urls yes
     conda update conda
-    conda config --append channels conda-forge
-    conda config --append channels BjornFJohansson
 else
     echo "Not running on CI server, probably running on local computer"
     local_computer=true
 fi
 
-conda create -y -n testing_environment python=3.6 nbval pytest beautifulsoup4 lxml requests
-source activate testing_environment
-which python
-python --version
-conda install pydna
-conda install pygenome
+echo "create test environment for python 3.6"
+conda env create -f conda_envs/testenv36.yml
+source activate testenv36
 python run_test.py
 if [[ $local_computer = true ]]
 then
     source activate bjorn36
-    conda remove -n dDEL_testenv --all -q
+    conda remove -n testenv36 --all -q
 fi
