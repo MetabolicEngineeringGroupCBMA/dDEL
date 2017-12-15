@@ -5,31 +5,11 @@ channels:
 - BjornFJohansson
 dependencies:
 - python=3.6
-- appdirs
-- biopython
-- prettytable
-- networkx
-- ordered-set
-- pyparsing
-
-- requests
-
-- ipython
-- jupyter
-- numpy
-- scipy
-- matplotlib
-- mpldatacursor
-- pint
-
 - pytest
-- pytest-runner
+#- pytest-runner
 - nbval
-
-- setuptools
-
-
-conda create -y -n testing_environment python=3.6 nbval pytest beautifulsoup4 lxml requests
-source activate testing_environment
-conda install pydna
-conda install pygenome
+- beautifulsoup4 
+- lxml 
+- requests
+- pydna
+- pygenome
