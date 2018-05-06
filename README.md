@@ -26,3 +26,5 @@ If the content do not match for any cell, the badge above turns red.
 Click on the badge to see the details of the tests.
 
 The contents of this repository is released under the MIT [Licence](Licence.md)
+
+[![DOI](https://zenodo.org/badge/112296590.svg)](https://zenodo.org/badge/latestdoi/112296590)
