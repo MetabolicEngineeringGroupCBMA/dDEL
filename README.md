@@ -24,7 +24,7 @@ The tests compare the previously saved output from each notebook code cell with 
 If the content do not match for any cell, the badge above turns red. 
 Click on the badge to see the details of the tests.
 
-The contents of this repository is released under the BSD 3-Clause License [Licence](LICENCE.md)
 
+The contents of this repository is released under the BSD 3-Clause License [Licence](LICENCE.md)
 
 [![DOI](https://zenodo.org/badge/112296590.svg)](https://zenodo.org/badge/latestdoi/112296590)
