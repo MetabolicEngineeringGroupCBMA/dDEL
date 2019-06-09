@@ -1,106 +1,234 @@
-LOCUS       name?                   9938 bp    DNA     linear   UNK 11-SEP-2017
-DEFINITION  description?.
-ACCESSION   id?
-VERSION     id?
+LOCUS       name                    9938 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  description.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         959..1003
-                     /note="olp_W09B1ER967NYOdSSfoswkKu0mtQ"
-                     /chksum="W09B1ER967NYOdSSfoswkKu0mtQ"
-                     /ApEinfo_fwdcolor="#E9C0EC"
-                     /ApEinfo_revcolor="#D2E0D5"
-     overlap         1611..2010
-                     /note="olp_Tg4Vq3AlZEsUsr1KZAK2CbAiQ1A"
-                     /chksum="Tg4Vq3AlZEsUsr1KZAK2CbAiQ1A"
-                     /ApEinfo_fwdcolor="#EAB4CB"
-                     /ApEinfo_revcolor="#F6CCDF"
-     primer_bind     complement(1991..2010)
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     complement(1991..2010)
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1991..2031)
-                     /label="rv1018"
-     primer_bind     complement(2395..2416)
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     complement(2395..2416)
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(2395..2434)
-                     /label="rv400"
-     primer_bind     complement(3208..3226)
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     complement(3208..3226)
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(3208..3244)
-                     /label="rv810"
-     overlap         3211..3652
-                     /note="olp_xf_YMcgKnGuroIU3Le77dT6z1do"
-                     /chksum="xf_YMcgKnGuroIU3Le77dT6z1do"
-                     /ApEinfo_fwdcolor="#EEFABB"
-                     /ApEinfo_revcolor="#E7CDB0"
-     primer_bind     complement(3601..3626)
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     complement(3601..3626)
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     complement(3603..3652)
-                     /note="dda12_Kl_tr_r"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(3603..3652)
+     gene            43..705
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+     mRNA            43..705
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+     CDS             43..705
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+                     /EC_number="4.2.1.19"
+                     /GO_component="GO:0005575 - cellular_component [Evidence
+                     ND]"
+                     /GO_function="GO:0004424 - imidazoleglycerol-phosphate
+                     dehydratase activity [Evidence IEA,IEA]"
+                     /GO_function="GO:0004424 - imidazoleglycerol-phosphate
+                     dehydratase activity [Evidence IMP] [PMID 14190241]"
+                     /GO_function="GO:0004424 - imidazoleglycerol-phosphate
+                     dehydratase activity [Evidence IDA] [PMID 341150]"
+                     /GO_function="GO:0016829 - lyase activity [Evidence IEA]"
+                     /GO_process="GO:0008652 - cellular amino acid biosynthetic
+                     process [Evidence IEA]"
+                     /GO_process="GO:0000105 - histidine biosynthetic process
+                     [Evidence IEA,IEA,IEA]"
+                     /GO_process="GO:0000105 - histidine biosynthetic process
+                     [Evidence IMP] [PMID 14190241]"
+                     /GO_process="GO:0000105 - histidine biosynthetic process
+                     [Evidence IDA] [PMID 341150]"
+                     /note="Imidazoleglycerol-phosphate dehydratase; catalyzes
+                     the sixth step in histidine biosynthesis; mutations cause
+                     histidine auxotrophy and sensitivity to Cu, Co, and Ni
+                     salts; transcription is regulated by general amino acid
+                     control via Gcn4p"
+                     /codon_start=1
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+                     /protein_id="DAA10975.1"
+                     /db_xref="SGD:S000005728"
+                     /translation="MTEQKALVKRITNETKIQIAISLKGGPLAIEHSIFPEKEAEAVAE
+                     QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
+                     KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
+                     LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
+                     /ApEinfo_fwdcolor="#cda2b3"
+                     /ApEinfo_revcolor="#cda2b3"
+     primer_bind     1003..1023
+                     /label="Fw_TEF-His3"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1355..1374)
+                     /label="r1018"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1355..1374)
+                     /label="r1018"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1355..1394)
+                     /label="part_r1018"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1344..1383
+                     /label="part_f400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1365..1383
+                     /label="f400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1365..1383
+                     /label="f400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1743..1764)
+                     /label="r400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1743..1764)
+                     /label="r400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1743..1782)
+                     /label="part_r400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1747..1783
+                     /label="part_f810"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            1765..2574
+                     /gene="kanMX"
+     CDS             1765..2574
+                     /gene="kanMX"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="geneticin resistance protein"
+                     /protein_id="AAG34543.1"
+                     /translation="MGKEKTHVSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKP
+                     DAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTA
+                     FQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASD
+                     FDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIAD
+                     RYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
+     primer_bind     1765..1783
+                     /label="f810"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1765..1783
+                     /label="f810"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2556..2574)
+                     /label="r810"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2556..2574)
+                     /label="r810"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2556..2592)
+                     /label="part_r810"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2557..2601
+                     /label="part_f400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2575..2601
+                     /label="f400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2575..2601
+                     /label="f400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2949..2974)
+                     /label="r400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2949..2974)
+                     /label="r400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2949..2998)
+                     /label="part_r400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(2951..3000)
                      /label="dda12_Kl_tr_r"
-     overlap         5734..6094
-                     /note="olp_1i7JsrcJTighG4DraQx95ay4cGg"
-                     /chksum="1i7JsrcJTighG4DraQx95ay4cGg"
-                     /ApEinfo_fwdcolor="#B4BBDD"
-                     /ApEinfo_revcolor="#B1BBC3"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     3211..3250
+                     /label="dda11_Kl_tr_f"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     3227..3253
+                     /label="f400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     3227..3253
+                     /label="f400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(3601..3626)
+                     /label="r400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(3601..3626)
+                     /label="r400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(3601..3650)
+                     /label="part_r400"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(6075..6094)
-                     /note="195_pMEC_MX4_rev"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(6075..6094)
                      /label="195_pMEC_MX4_rev"
-     primer_bind     7929..7942
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     7929..7942
-                     /note="name?"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     overlap         7929..8328
-                     /note="olp_Tg4Vq3AlZEsUsr1KZAK2CbAiQ1A"
-                     /chksum="Tg4Vq3AlZEsUsr1KZAK2CbAiQ1A"
-                     /ApEinfo_fwdcolor="#EAB4CB"
-                     /ApEinfo_revcolor="#F6CCDF"
-     primer_bind     complement(8911..8935)
-                     /note="Rv_TEF-His3"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(8911..8980)
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     5734..5752
+                     /label="196_pMEC_MX4_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     7894..7907
+                     /label="f1019"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     7894..7907
+                     /label="f1019"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     7894..7942
+                     /label="f1019"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     misc_feature    6478..6717
+                     /product="TEF-TER"
+                     /gene="TEF-TER"
+                     /label="TEF-TER"
+                     /ApEinfo_fwdcolor="#00ff69"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(6703..6717)
+                     /label="r1019"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(6703..6717)
+                     /label="r1019"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(6703..6738)
+                     /label="r1019"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(6716..6740)
                      /label="Rv_TEF-His3"
-     overlap         8936..8980
-                     /note="olp__TMahGDv_J5vg6gS5aK7Z84Xmss"
-                     /chksum="_TMahGDv_J5vg6gS5aK7Z84Xmss"
-                     /ApEinfo_fwdcolor="#CFD6E4"
-                     /ApEinfo_revcolor="#D5F2F0"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
 ORIGIN
         1 tattgtgagg gtcagttatt tcatccagat ataacccgag aggaaacttc ttagcgtctg
        61 ttttcgtacc ataaggcagt tcatgaggta tattttcgtt attgaagccc agctcgtgaa

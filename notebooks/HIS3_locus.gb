@@ -1,4 +1,4 @@
-LOCUS       BK006948                2663 bp    DNA     linear   UNK 11-SEP-2017
+LOCUS       BK006948                2663 bp    DNA     linear   UNK 01-JAN-1980
 DEFINITION  BK006948 REGION: 720946..723608.
 ACCESSION   BK006948
 VERSION     BK006948.2
@@ -54,8 +54,8 @@ FEATURES             Location/Qualifiers
                      QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
                      KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
                      LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
-                     /ApEinfo_fwdcolor="#fc96b8"
-                     /ApEinfo_revcolor="#fc96b8"
+                     /ApEinfo_fwdcolor="#cda2b3"
+                     /ApEinfo_revcolor="#cda2b3"
 ORIGIN
         1 tattgtgagg gtcagttatt tcatccagat ataacccgag aggaaacttc ttagcgtctg
        61 ttttcgtacc ataaggcagt tcatgaggta tattttcgtt attgaagccc agctcgtgaa

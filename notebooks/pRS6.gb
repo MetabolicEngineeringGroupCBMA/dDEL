@@ -1,117 +1,115 @@
-LOCUS       na                      7518 bp    DNA     circular UNK 01-JUN-2016
-DEFINITION  @
-ACCESSION   -
-VERSION     -
+LOCUS       name                    7518 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   <unknown id>
+VERSION     <unknown id>
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     repeat_region   complement(860..864)
+     repeat_region   complement(864..868)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_feature    981..1107
+     misc_feature    985..1111
                      /note="from pSC101 (bp 1860-1986)"
-     repeat_region   complement(1133..1137)
+     repeat_region   complement(1137..1141)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_difference 1236..1237
-                     /citation=[23]
+     misc_difference 1240..1241
                      /note="conflict"
+                     /citation=[23]
                      /replace="att"
-     old_sequence    1237..1238
+     old_sequence    1241..1242
                      /citation=[2]
                      /citation=[22]
-     regulatory      1250..1255
+     regulatory      1254..1259
                      /regulatory_class="ribosome_binding_site"
-     regulatory      1250..1254
+     regulatory      1254..1258
+                     /regulatory_class="ribosome_binding_site"
                      /note="Shine-Dalgarno sequence"
-                     /regulatory_class="ribosome_binding_site"
-     misc_difference 1258..1259
-                     /citation=[23]
+     misc_difference 1262..1263
                      /note="conflict"
+                     /citation=[23]
                      /replace="caa"
-     old_sequence    1259..1260
+     old_sequence    1263..1264
                      /citation=[17]
-     CDS             1260..1451
+     CDS             1264..1455
                      /codon_start=1
-                     /db_xref="GI:456436"
+                     /transl_table=11
                      /product="ROP protein"
                      /protein_id="AAB59736.1"
-                     /transl_table=11
                      /translation="MTKQEKTALNMARFIRSQTLTLLEKLNELDADEQADICESLHDHA
                      DELYRSCLARFGDDGENL"
-     misc_feature    1356..1512
-                     /citation=[5]
+     misc_feature    1360..1516
                      /note="H-strand Y effector site"
-     repeat_region   complement(1590..1594)
+                     /citation=[5]
+     repeat_region   complement(1594..1598)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_feature    complement(1696..1759)
-                     /citation=[5]
+     misc_feature    complement(1700..1763)
                      /note="L-strand Y effector site"
-     misc_binding    1784..1792
+                     /citation=[5]
+     misc_binding    1788..1796
                      /bound_moiety="dnaA"
-     rep_origin      1880
-     old_sequence    2074..2075
+     rep_origin      1884
+     old_sequence    2078..2079
+                     /note="revision according to (17)"
                      /citation=[2]
                      /citation=[17]
-                     /note="revision according to (17)"
                      /replace="at"
-     old_sequence    2074
+     old_sequence    2078
                      /citation=[17]
-     old_sequence    2075
+     old_sequence    2079
+                     /note="revision according to (16)"
                      /citation=[2]
                      /citation=[16]
                      /citation=[17]
-                     /note="revision according to (16)"
                      /replace="t"
-     mobile_element  2493..3706
+     mobile_element  2497..3710
                      /mobile_element_type="transposon:Tn3"
-     repeat_region   2493..2530
+     repeat_region   2497..2534
                      /note="corresponds to one of the 38bp repeats found in Tn3
                      (bp 1-38 and complement (4920-4957))"
                      /rpt_type=inverted
-     gene            complement(2638..3498)
+     gene            complement(2642..3502)
                      /gene="bla"
-     CDS             complement(2638..3498)
-                     /codon_start=1
-                     /db_xref="GI:455370"
+     CDS             complement(2642..3502)
                      /gene="bla"
                      /note="E-286"
+                     /codon_start=1
+                     /transl_table=11
                      /product="beta-lactamase"
                      /protein_id="AAB59737.1"
-                     /transl_table=11
                      /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
                      ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYS
                      PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
                      EPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
-     mat_peptide     complement(2641..3429)
+     mat_peptide     complement(2645..3433)
                      /gene="bla"
                      /product="beta-lactamase"
-     sig_peptide     complement(3430..3498)
+     sig_peptide     complement(3434..3502)
                      /gene="bla"
-     regulatory      complement(3506..3510)
-                     /note="Shine-Dalgarno sequence"
+     regulatory      complement(3510..3514)
                      /regulatory_class="ribosome_binding_site"
-     regulatory      complement(3533..3539)
-                     /note="promoter P3 (6)"
+                     /note="Shine-Dalgarno sequence"
+     regulatory      complement(3537..3543)
                      /regulatory_class="promoter"
-     misc_binding    complement(3613..3616)
+                     /note="promoter P3 (6)"
+     misc_binding    complement(3617..3620)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3625..3628)
+     misc_binding    complement(3629..3632)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3630..3633)
+     misc_binding    complement(3634..3637)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3641..3644)
+     misc_binding    complement(3645..3648)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3656..3659)
+     misc_binding    complement(3660..3663)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3662..3665)
+     misc_binding    complement(3666..3669)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3676..3679)
+     misc_binding    complement(3680..3683)
                      /bound_moiety="echinomycin"
 ORIGIN
         1 tcgaccgatg cccttgagag ccttcaaccc agtcagctcc ttccggtggg cgcggggcat

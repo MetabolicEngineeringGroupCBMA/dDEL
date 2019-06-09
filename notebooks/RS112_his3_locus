@@ -1,138 +1,165 @@
-LOCUS       na                     10181 bp    DNA     linear   UNK 01-JUN-2016
-DEFINITION  @
-ACCESSION   -
-VERSION     -
+LOCUS       name                   10181 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  description.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         1219..1309
-                     /ApEinfo_fwdcolor="#BCDDB1"
-                     /ApEinfo_revcolor="#BCCBC1"
-                     /chksum="k1f1gaJeIbGJj9Dtaj8N7hjzYkY"
-                     /note="olp_k1f1gaJeIbGJj9Dtaj8N7hjzYkY"
-     overlap         1496..1628
-                     /ApEinfo_fwdcolor="#C0F4DF"
-                     /ApEinfo_revcolor="#BAF3C3"
-                     /chksum="6tZqiGqOl2eNMwVzvDTnkMdsh60"
-                     /note="olp_6tZqiGqOl2eNMwVzvDTnkMdsh60"
-     repeat_region   complement(5862..5866)
+     repeat_region   complement(5866..5870)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_feature    5983..6109
+     misc_feature    5987..6113
                      /note="from pSC101 (bp 1860-1986)"
-     repeat_region   complement(6135..6139)
+     repeat_region   complement(6139..6143)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_difference 6238..6239
-                     /citation=[23]
+     misc_difference 6242..6243
                      /note="conflict"
+                     /citation=[23]
                      /replace="att"
-     old_sequence    6239..6240
+     old_sequence    6243..6244
                      /citation=[2]
                      /citation=[22]
-     regulatory      6252..6257
+     regulatory      6256..6261
                      /regulatory_class="ribosome_binding_site"
-     regulatory      6252..6256
+     regulatory      6256..6260
+                     /regulatory_class="ribosome_binding_site"
                      /note="Shine-Dalgarno sequence"
-                     /regulatory_class="ribosome_binding_site"
-     misc_difference 6260..6261
-                     /citation=[23]
+     misc_difference 6264..6265
                      /note="conflict"
+                     /citation=[23]
                      /replace="caa"
-     old_sequence    6261..6262
+     old_sequence    6265..6266
                      /citation=[17]
-     CDS             6262..6453
+     CDS             6266..6457
                      /codon_start=1
-                     /db_xref="GI:456436"
+                     /transl_table=11
                      /product="ROP protein"
                      /protein_id="AAB59736.1"
-                     /transl_table=11
                      /translation="MTKQEKTALNMARFIRSQTLTLLEKLNELDADEQADICESLHDHA
                      DELYRSCLARFGDDGENL"
-     misc_feature    6358..6514
-                     /citation=[5]
+     misc_feature    6362..6518
                      /note="H-strand Y effector site"
-     repeat_region   complement(6592..6596)
+                     /citation=[5]
+     repeat_region   complement(6596..6600)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_feature    complement(6698..6761)
-                     /citation=[5]
+     misc_feature    complement(6702..6765)
                      /note="L-strand Y effector site"
-     misc_binding    6786..6794
+                     /citation=[5]
+     misc_binding    6790..6798
                      /bound_moiety="dnaA"
-     rep_origin      6882
-     old_sequence    7076..7077
+     rep_origin      6886
+     old_sequence    7080..7081
+                     /note="revision according to (17)"
                      /citation=[2]
                      /citation=[17]
-                     /note="revision according to (17)"
                      /replace="at"
-     old_sequence    7076
+     old_sequence    7080
                      /citation=[17]
-     old_sequence    7077
+     old_sequence    7081
+                     /note="revision according to (16)"
                      /citation=[2]
                      /citation=[16]
                      /citation=[17]
-                     /note="revision according to (16)"
                      /replace="t"
-     mobile_element  7495..8708
+     mobile_element  7499..8712
                      /mobile_element_type="transposon:Tn3"
-     repeat_region   7495..7532
+     repeat_region   7499..7536
                      /note="corresponds to one of the 38bp repeats found in Tn3
                      (bp 1-38 and complement (4920-4957))"
                      /rpt_type=inverted
-     gene            complement(7640..8500)
+     gene            complement(7644..8504)
                      /gene="bla"
-     CDS             complement(7640..8500)
-                     /codon_start=1
-                     /db_xref="GI:455370"
+     CDS             complement(7644..8504)
                      /gene="bla"
                      /note="E-286"
+                     /codon_start=1
+                     /transl_table=11
                      /product="beta-lactamase"
                      /protein_id="AAB59737.1"
-                     /transl_table=11
                      /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
                      ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYS
                      PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
                      EPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
-     mat_peptide     complement(7643..8431)
+     mat_peptide     complement(7647..8435)
                      /gene="bla"
                      /product="beta-lactamase"
-     sig_peptide     complement(8432..8500)
+     sig_peptide     complement(8436..8504)
                      /gene="bla"
-     regulatory      complement(8508..8512)
-                     /note="Shine-Dalgarno sequence"
+     regulatory      complement(8512..8516)
                      /regulatory_class="ribosome_binding_site"
-     regulatory      complement(8535..8541)
-                     /note="promoter P3 (6)"
+                     /note="Shine-Dalgarno sequence"
+     regulatory      complement(8539..8545)
                      /regulatory_class="promoter"
-     misc_binding    complement(8615..8618)
+                     /note="promoter P3 (6)"
+     misc_binding    complement(8619..8622)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8627..8630)
+     misc_binding    complement(8631..8634)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8632..8635)
+     misc_binding    complement(8636..8639)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8643..8646)
+     misc_binding    complement(8647..8650)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8658..8661)
+     misc_binding    complement(8662..8665)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8664..8667)
+     misc_binding    complement(8668..8671)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8678..8681)
+     misc_binding    complement(8682..8685)
                      /bound_moiety="echinomycin"
-     overlap         8737..8827
-                     /ApEinfo_fwdcolor="#BCDDB1"
-                     /ApEinfo_revcolor="#BCCBC1"
-                     /chksum="k1f1gaJeIbGJj9Dtaj8N7hjzYkY"
-                     /note="olp_k1f1gaJeIbGJj9Dtaj8N7hjzYkY"
-     overlap         9014..9146
-                     /ApEinfo_fwdcolor="#C0F4DF"
-                     /ApEinfo_revcolor="#BAF3C3"
-                     /chksum="6tZqiGqOl2eNMwVzvDTnkMdsh60"
-                     /note="olp_6tZqiGqOl2eNMwVzvDTnkMdsh60"
+     gene            9737..10399
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+     mRNA            9737..10399
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+     CDS             9737..10399
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+                     /EC_number="4.2.1.19"
+                     /GO_component="GO:0005575 - cellular_component [Evidence
+                     ND]"
+                     /GO_function="GO:0004424 - imidazoleglycerol-phosphate
+                     dehydratase activity [Evidence IEA,IEA]"
+                     /GO_function="GO:0004424 - imidazoleglycerol-phosphate
+                     dehydratase activity [Evidence IMP] [PMID 14190241]"
+                     /GO_function="GO:0004424 - imidazoleglycerol-phosphate
+                     dehydratase activity [Evidence IDA] [PMID 341150]"
+                     /GO_function="GO:0016829 - lyase activity [Evidence IEA]"
+                     /GO_process="GO:0008652 - cellular amino acid biosynthetic
+                     process [Evidence IEA]"
+                     /GO_process="GO:0000105 - histidine biosynthetic process
+                     [Evidence IEA,IEA,IEA]"
+                     /GO_process="GO:0000105 - histidine biosynthetic process
+                     [Evidence IMP] [PMID 14190241]"
+                     /GO_process="GO:0000105 - histidine biosynthetic process
+                     [Evidence IDA] [PMID 341150]"
+                     /note="Imidazoleglycerol-phosphate dehydratase; catalyzes
+                     the sixth step in histidine biosynthesis; mutations cause
+                     histidine auxotrophy and sensitivity to Cu, Co, and Ni
+                     salts; transcription is regulated by general amino acid
+                     control via Gcn4p"
+                     /codon_start=1
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+                     /protein_id="DAA10975.1"
+                     /db_xref="SGD:S000005728"
+                     /translation="MTEQKALVKRITNETKIQIAISLKGGPLAIEHSIFPEKEAEAVAE
+                     QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
+                     KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
+                     LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
+                     /ApEinfo_fwdcolor="#f6b0c1"
+                     /ApEinfo_revcolor="#f6b0c1"
 ORIGIN
         1 tattgtgagg gtcagttatt tcatccagat ataacccgag aggaaacttc ttagcgtctg
        61 ttttcgtacc ataaggcagt tcatgaggta tattttcgtt attgaagccc agctcgtgaa

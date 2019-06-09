@@ -16,7 +16,8 @@ View on [nbviewer](https://nbviewer.jupyter.org/github/MetabolicEngineeringGroup
 
 ## Automatic testing
 
-[![Build Status](https://travis-ci.org/MetabolicEngineeringGroupCBMA/dDEL.svg)](https://travis-ci.org/MetabolicEngineeringGroupCBMA/dDEL)
+[![Build Status](https://travis-ci.org/MetabolicEngineeringGroupCBMA/dDEL.svg?branch=master)](https://travis-ci.org/MetabolicEngineeringGroupCBMA/dDEL)
+[ ![Codeship Status for MetabolicEngineeringGroupCBMA/dDEL](https://app.codeship.com/projects/baa24440-c327-0135-9197-5691d0f358d5/status?branch=master)](https://app.codeship.com/projects/260680)
 
 Jupyter notebooks in this repository are tested using a continuous integration service.
 A fresh install of all depending software is performed once per month or whenever the files in this repository change.
@@ -24,7 +25,4 @@ The tests compare the previously saved output from each notebook code cell with 
 If the content do not match for any cell, the badge above turns red. 
 Click on the badge to see the details of the tests.
 
-The contents of this repository is released under the BSD 3-Clause License [Licence](LICENCE.md)
-
-
-[![DOI](https://zenodo.org/badge/112296590.svg)](https://zenodo.org/badge/latestdoi/112296590)
+The contents of this repository is released under the MIT [Licence](Licence.md)

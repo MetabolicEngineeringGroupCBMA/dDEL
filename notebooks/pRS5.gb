@@ -1,26 +1,26 @@
-LOCUS       na                      5090 bp    DNA     circular UNK 01-JUN-2016
-DEFINITION  @
-ACCESSION   -
-VERSION     -
+LOCUS       name                    5090 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  description.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
      misc_binding    36..39
-                     /bound_moiety="echinomycin"
                      /gene="tet"
+                     /bound_moiety="echinomycin"
      misc_difference 51
-                     /citation=[11]
                      /gene="tet"
                      /note="conflict"
+                     /citation=[11]
                      /replace=""
      misc_binding    94..97
+                     /gene="tet"
                      /bound_moiety="echinomycin"
-                     /gene="tet"
      old_sequence    151..153
-                     /citation=[17]
                      /gene="tet"
+                     /citation=[17]
      repeat_region   complement(1140..1144)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
@@ -30,8 +30,8 @@ FEATURES             Location/Qualifiers
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
      misc_difference 1516..1517
-                     /citation=[23]
                      /note="conflict"
+                     /citation=[23]
                      /replace="att"
      old_sequence    1517..1518
                      /citation=[2]
@@ -39,46 +39,45 @@ FEATURES             Location/Qualifiers
      regulatory      1530..1535
                      /regulatory_class="ribosome_binding_site"
      regulatory      1530..1534
-                     /note="Shine-Dalgarno sequence"
                      /regulatory_class="ribosome_binding_site"
+                     /note="Shine-Dalgarno sequence"
      misc_difference 1538..1539
-                     /citation=[23]
                      /note="conflict"
+                     /citation=[23]
                      /replace="caa"
      old_sequence    1539..1540
                      /citation=[17]
      CDS             1540..1731
                      /codon_start=1
-                     /db_xref="GI:456436"
+                     /transl_table=11
                      /product="ROP protein"
                      /protein_id="AAB59736.1"
-                     /transl_table=11
                      /translation="MTKQEKTALNMARFIRSQTLTLLEKLNELDADEQADICESLHDHA
                      DELYRSCLARFGDDGENL"
      misc_feature    1636..1792
-                     /citation=[5]
                      /note="H-strand Y effector site"
+                     /citation=[5]
      repeat_region   complement(1870..1874)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
      misc_feature    complement(1976..2039)
-                     /citation=[5]
                      /note="L-strand Y effector site"
+                     /citation=[5]
      misc_binding    2064..2072
                      /bound_moiety="dnaA"
      rep_origin      2160
      old_sequence    2354..2355
+                     /note="revision according to (17)"
                      /citation=[2]
                      /citation=[17]
-                     /note="revision according to (17)"
                      /replace="at"
      old_sequence    2354
                      /citation=[17]
      old_sequence    2355
+                     /note="revision according to (16)"
                      /citation=[2]
                      /citation=[16]
                      /citation=[17]
-                     /note="revision according to (16)"
                      /replace="t"
      mobile_element  2773..3986
                      /mobile_element_type="transposon:Tn3"
@@ -89,13 +88,12 @@ FEATURES             Location/Qualifiers
      gene            complement(2918..3778)
                      /gene="bla"
      CDS             complement(2918..3778)
-                     /codon_start=1
-                     /db_xref="GI:455370"
                      /gene="bla"
                      /note="E-286"
+                     /codon_start=1
+                     /transl_table=11
                      /product="beta-lactamase"
                      /protein_id="AAB59737.1"
-                     /transl_table=11
                      /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
                      ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYS
                      PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
@@ -108,11 +106,11 @@ FEATURES             Location/Qualifiers
      sig_peptide     complement(3710..3778)
                      /gene="bla"
      regulatory      complement(3786..3790)
-                     /note="Shine-Dalgarno sequence"
                      /regulatory_class="ribosome_binding_site"
+                     /note="Shine-Dalgarno sequence"
      regulatory      complement(3813..3819)
-                     /note="promoter P3 (6)"
                      /regulatory_class="promoter"
+                     /note="promoter P3 (6)"
      misc_binding    complement(3893..3896)
                      /bound_moiety="echinomycin"
      misc_binding    complement(3905..3908)

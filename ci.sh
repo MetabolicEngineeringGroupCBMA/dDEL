@@ -1,24 +1,37 @@
 #!/usr/bin/env bash
-if [[ $CI = true ]]||[[ $CI = True ]]
-then
-    echo "Running on CI server"
-    wget -q https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Miniconda_latest.sh
-    bash Miniconda_latest.sh -b -p $HOME/miniconda
-    export PATH="$HOME/miniconda/bin:$PATH"
-    rm Miniconda_latest.sh
-    conda config --set always_yes yes --set show_channel_urls yes
-    conda update conda
-else
-    echo "Not running on CI server, probably running on local computer"
-    local_computer=true
-fi
 
-echo "create test environment for python 3.6"
-conda env create -f conda_envs/testenv36.yml
-source activate testenv36
-python run_test.py
-if [[ $local_computer = true ]]
-then
-    source activate bjorn36
-    conda remove -n testenv36 --all -q
-fi
+wget -q https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Miniconda_latest.sh
+bash Miniconda_latest.sh -b -p $HOME/miniconda
+export PATH="$HOME/miniconda/bin:$PATH"
+rm Miniconda_latest.sh
+
+
+conda config --set always_yes yes --set show_channel_urls yes
+conda update conda
+conda env create -f environment.yml
+source activate testenvironment
+conda config --add channels conda-forge
+conda install pytest nbconvert nbval termcolor
+
+
+# This is to make sure double stars ** works
+shopt -s globstar
+
+# This script runs, tests and converts (to html) all Jupyter notebooks in /notebooks
+# Probably running and converting should be turned off when the notebooks are ready for publication
+# notebooks with names starting with a dot . or in a folder starting with a dot are ignored.
+
+cd notebooks
+
+# command to run all notebooks
+jupyter nbconvert --ExecutePreprocessor.kernel_name=python3 --execute --inplace --allow-errors **/*.ipynb
+
+#command to convert all notebooks
+jupyter nbconvert **/*.ipynb
+
+#command to test all notebooks
+pytest --current-env --verbose --capture=no --nbval **/*.ipynb
+
+
+
+exit $?
