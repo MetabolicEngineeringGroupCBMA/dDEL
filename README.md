@@ -32,16 +32,16 @@ or directly in Github [here](notebooks/index.ipynb).
 
 ## Significant files:
 
-### [The structure of the pRS6 plasmid](The_structure_of_the_pRS6_plasmid_used_in_the_del_assay.ipynb)
+### [The structure of the pRS6 plasmid](notebooks/The_structure_of_the_pRS6_plasmid_used_in_the_del_assay.ipynb)
 
 This notebook contains a compilation of information on the construction of the pRS6 plasmid found in published literature.
 The pRS6 plasmid was used to construct the original DEL cassette. View on [nbviewer](https://nbviewer.jupyter.org/github/MetabolicEngineeringGroupCBMA/dDEL/blob/master/The_structure_of_the_pRS6_plasmid_used_in_the_del_assay.ipynb).
 
-### [pPS1 assembly](pPS1_assembly.ipynb)
+### [pPS1 assembly](notebooks/pPS1_assembly.ipynb)
 
 This notebook shows how the pPS1 plasmid was constructed. The pPS1 plasmid was the initial assembly of the dDEL cassette. View on [nbviewer](https://nbviewer.jupyter.org/github/MetabolicEngineeringGroupCBMA/dDEL/blob/master/pPS1_assembly.ipynb).
 
-### [Integration of ddel cassette in HIS3 locus](Integration_of_ddel_in_HIS3_locus.ipynb)
+### [Integration of ddel cassette in HIS3 locus](notebooks/Integration_of_ddel_in_HIS3_locus.ipynb)
 
 This notebook shows how a part of the pPS1 plasmid was integrated in the S. cerevisiae genome at the HIS3 locus.
 View on [nbviewer](https://nbviewer.jupyter.org/github/MetabolicEngineeringGroupCBMA/dDEL/blob/master/Integration_of_ddel_in_HIS3_locus.ipynb).
