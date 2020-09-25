@@ -1,5 +1,6 @@
 LOCUS       pPS1                   10540 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_vXelWQ46lP0x8856rBYXpzFaSTk_2018-05-15T07:23:43.342241.
+DEFINITION  cSEGUID_vXelWQ46lP0x8856rBYXpzFaSTk
+            cSEGUID_vXelWQ46lP0x8856rBYXpzFaSTk_2018-05-15T07:23:43.342241.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -52,7 +53,7 @@ FEATURES             Location/Qualifiers
                      YSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGE
                      YTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDD
                      VVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN"
-     primer_bind     1061..1075
+     primer_bind     1061..1076
                      /label="f2579"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -60,7 +61,7 @@ FEATURES             Location/Qualifiers
                      /label="r2579"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     1061..1075
+     primer_bind     1061..1076
                      /label="f2579"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -68,7 +69,7 @@ FEATURES             Location/Qualifiers
                      /label="r2579"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     1040..1075
+     primer_bind     1040..1076
                      /label="part_part_f2579"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -88,7 +89,7 @@ FEATURES             Location/Qualifiers
                      /label="f1018"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(4002..4021)
+     primer_bind     complement(4000..4021)
                      /label="r1018"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -96,7 +97,7 @@ FEATURES             Location/Qualifiers
                      /label="f1018"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(4002..4021)
+     primer_bind     complement(4000..4021)
                      /label="r1018"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -104,11 +105,11 @@ FEATURES             Location/Qualifiers
                      /label="part_f1018"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(4002..4041)
+     primer_bind     complement(4000..4039)
                      /label="part_r1018"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     4664..4682
+     primer_bind     4664..4681
                      /label="f400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -116,7 +117,7 @@ FEATURES             Location/Qualifiers
                      /label="r400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     4664..4682
+     primer_bind     4664..4681
                      /label="f400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -124,7 +125,7 @@ FEATURES             Location/Qualifiers
                      /label="r400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     4643..4682
+     primer_bind     4643..4681
                      /label="part_f400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -145,31 +146,31 @@ FEATURES             Location/Qualifiers
                      FQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASD
                      FDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIAD
                      RYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
-     primer_bind     5064..5082
+     primer_bind     5064..5081
                      /label="f810"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(5855..5873)
+     primer_bind     complement(5853..5873)
                      /label="r810"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     5064..5082
+     primer_bind     5064..5081
                      /label="f810"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(5855..5873)
+     primer_bind     complement(5853..5873)
                      /label="r810"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     5046..5082
+     primer_bind     5046..5081
                      /label="part_f810"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(5855..5891)
+     primer_bind     complement(5853..5891)
                      /label="part_r810"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     5874..5900
+     primer_bind     5874..5899
                      /label="f400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -177,7 +178,7 @@ FEATURES             Location/Qualifiers
                      /label="r400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     5874..5900
+     primer_bind     5874..5899
                      /label="f400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -185,7 +186,7 @@ FEATURES             Location/Qualifiers
                      /label="r400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     5856..5900
+     primer_bind     5856..5899
                      /label="part_f400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"

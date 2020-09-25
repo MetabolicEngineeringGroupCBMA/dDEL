@@ -1,4 +1,4 @@
-name: testenvironment
+name: environment
 channels:
 - defaults
 - conda-forge
@@ -8,8 +8,8 @@ dependencies:
 - pytest
 - pytest-runner
 - nbval
-- beautifulsoup4 
-- lxml 
+- beautifulsoup4
+- lxml
 - requests
 - pydna
 - pygenome

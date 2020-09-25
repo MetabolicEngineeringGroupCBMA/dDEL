@@ -7,73 +7,73 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     repeat_region   complement(5866..5870)
+     repeat_region   complement(5858..5862)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_feature    5987..6113
+     misc_feature    5979..6105
                      /note="from pSC101 (bp 1860-1986)"
-     repeat_region   complement(6139..6143)
+     repeat_region   complement(6131..6135)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_difference 6242..6243
+     misc_difference 6234..6235
                      /note="conflict"
                      /citation=[23]
                      /replace="att"
-     old_sequence    6243..6244
+     old_sequence    6235..6236
                      /citation=[2]
                      /citation=[22]
-     regulatory      6256..6261
+     regulatory      6248..6253
                      /regulatory_class="ribosome_binding_site"
-     regulatory      6256..6260
+     regulatory      6248..6252
                      /regulatory_class="ribosome_binding_site"
                      /note="Shine-Dalgarno sequence"
-     misc_difference 6264..6265
+     misc_difference 6256..6257
                      /note="conflict"
                      /citation=[23]
                      /replace="caa"
-     old_sequence    6265..6266
+     old_sequence    6257..6258
                      /citation=[17]
-     CDS             6266..6457
+     CDS             6258..6449
                      /codon_start=1
                      /transl_table=11
                      /product="ROP protein"
                      /protein_id="AAB59736.1"
                      /translation="MTKQEKTALNMARFIRSQTLTLLEKLNELDADEQADICESLHDHA
                      DELYRSCLARFGDDGENL"
-     misc_feature    6362..6518
+     misc_feature    6354..6510
                      /note="H-strand Y effector site"
                      /citation=[5]
-     repeat_region   complement(6596..6600)
+     repeat_region   complement(6588..6592)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_feature    complement(6702..6765)
+     misc_feature    complement(6694..6757)
                      /note="L-strand Y effector site"
                      /citation=[5]
-     misc_binding    6790..6798
+     misc_binding    6782..6790
                      /bound_moiety="dnaA"
-     rep_origin      6886
-     old_sequence    7080..7081
+     rep_origin      6878
+     old_sequence    7072..7073
                      /note="revision according to (17)"
                      /citation=[2]
                      /citation=[17]
                      /replace="at"
-     old_sequence    7080
+     old_sequence    7072
                      /citation=[17]
-     old_sequence    7081
+     old_sequence    7073
                      /note="revision according to (16)"
                      /citation=[2]
                      /citation=[16]
                      /citation=[17]
                      /replace="t"
-     mobile_element  7499..8712
+     mobile_element  7491..8704
                      /mobile_element_type="transposon:Tn3"
-     repeat_region   7499..7536
+     repeat_region   7491..7528
                      /note="corresponds to one of the 38bp repeats found in Tn3
                      (bp 1-38 and complement (4920-4957))"
                      /rpt_type=inverted
-     gene            complement(7644..8504)
+     gene            complement(7636..8496)
                      /gene="bla"
-     CDS             complement(7644..8504)
+     CDS             complement(7636..8496)
                      /gene="bla"
                      /note="E-286"
                      /codon_start=1
@@ -86,43 +86,43 @@ FEATURES             Location/Qualifiers
                      EPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
-     mat_peptide     complement(7647..8435)
+     mat_peptide     complement(7639..8427)
                      /gene="bla"
                      /product="beta-lactamase"
-     sig_peptide     complement(8436..8504)
+     sig_peptide     complement(8428..8496)
                      /gene="bla"
-     regulatory      complement(8512..8516)
+     regulatory      complement(8504..8508)
                      /regulatory_class="ribosome_binding_site"
                      /note="Shine-Dalgarno sequence"
-     regulatory      complement(8539..8545)
+     regulatory      complement(8531..8537)
                      /regulatory_class="promoter"
                      /note="promoter P3 (6)"
-     misc_binding    complement(8619..8622)
+     misc_binding    complement(8611..8614)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8631..8634)
+     misc_binding    complement(8623..8626)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8636..8639)
+     misc_binding    complement(8628..8631)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8647..8650)
+     misc_binding    complement(8639..8642)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8662..8665)
+     misc_binding    complement(8654..8657)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8668..8671)
+     misc_binding    complement(8660..8663)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(8682..8685)
+     misc_binding    complement(8674..8677)
                      /bound_moiety="echinomycin"
-     gene            9737..10399
+     gene            8519..9181
                      /gene="HIS3"
                      /locus_tag="YOR202W"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            9737..10399
+     mRNA            8519..9181
                      /gene="HIS3"
                      /locus_tag="YOR202W"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
-     CDS             9737..10399
+     CDS             8519..9181
                      /gene="HIS3"
                      /locus_tag="YOR202W"
                      /gene_synonym="HIS10"
@@ -158,8 +158,8 @@ FEATURES             Location/Qualifiers
                      QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
                      KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
                      LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
-                     /ApEinfo_fwdcolor="#f6b0c1"
-                     /ApEinfo_revcolor="#f6b0c1"
+                     /ApEinfo_fwdcolor="#a2b0bd"
+                     /ApEinfo_revcolor="#a2b0bd"
 ORIGIN
         1 tattgtgagg gtcagttatt tcatccagat ataacccgag aggaaacttc ttagcgtctg
        61 ttttcgtacc ataaggcagt tcatgaggta tattttcgtt attgaagccc agctcgtgaa
