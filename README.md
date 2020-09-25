@@ -30,7 +30,7 @@ or directly in Github [here](notebooks/index.ipynb).
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
 
-## Significant files
+## Significant files:
 
 ### [The structure of the pRS6 plasmid](The_structure_of_the_pRS6_plasmid_used_in_the_del_assay.ipynb)
 
