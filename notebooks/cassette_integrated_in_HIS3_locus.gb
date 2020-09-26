@@ -54,8 +54,8 @@ FEATURES             Location/Qualifiers
                      QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
                      KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
                      LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
-                     /ApEinfo_fwdcolor="#cab4c0"
-                     /ApEinfo_revcolor="#cab4c0"
+                     /ApEinfo_fwdcolor="#d3ecc8"
+                     /ApEinfo_revcolor="#d3ecc8"
      primer_bind     1003..1023
                      /label="Fw_TEF-His3"
                      /ApEinfo_fwdcolor="#baffa3"
