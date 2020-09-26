@@ -7,87 +7,87 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     misc_binding    36..39
+     misc_binding    32..35
                      /gene="tet"
                      /bound_moiety="echinomycin"
-     misc_difference 51
+     misc_difference 47
                      /gene="tet"
                      /note="conflict"
                      /citation=[11]
                      /replace=""
-     misc_binding    94..97
+     misc_binding    90..93
                      /gene="tet"
                      /bound_moiety="echinomycin"
-     old_sequence    151..153
+     old_sequence    147..149
                      /gene="tet"
                      /citation=[17]
-     repeat_region   complement(1140..1144)
+     repeat_region   complement(1136..1140)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_feature    1261..1387
+     misc_feature    1257..1383
                      /note="from pSC101 (bp 1860-1986)"
-     repeat_region   complement(1413..1417)
+     repeat_region   complement(1409..1413)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_difference 1516..1517
+     misc_difference 1512..1513
                      /note="conflict"
                      /citation=[23]
                      /replace="att"
-     old_sequence    1517..1518
+     old_sequence    1513..1514
                      /citation=[2]
                      /citation=[22]
-     regulatory      1530..1535
+     regulatory      1526..1531
                      /regulatory_class="ribosome_binding_site"
-     regulatory      1530..1534
+     regulatory      1526..1530
                      /regulatory_class="ribosome_binding_site"
                      /note="Shine-Dalgarno sequence"
-     misc_difference 1538..1539
+     misc_difference 1534..1535
                      /note="conflict"
                      /citation=[23]
                      /replace="caa"
-     old_sequence    1539..1540
+     old_sequence    1535..1536
                      /citation=[17]
-     CDS             1540..1731
+     CDS             1536..1727
                      /codon_start=1
                      /transl_table=11
                      /product="ROP protein"
                      /protein_id="AAB59736.1"
                      /translation="MTKQEKTALNMARFIRSQTLTLLEKLNELDADEQADICESLHDHA
                      DELYRSCLARFGDDGENL"
-     misc_feature    1636..1792
+     misc_feature    1632..1788
                      /note="H-strand Y effector site"
                      /citation=[5]
-     repeat_region   complement(1870..1874)
+     repeat_region   complement(1866..1870)
                      /note="gamma-delta insertion target sequence"
                      /rpt_type=direct
-     misc_feature    complement(1976..2039)
+     misc_feature    complement(1972..2035)
                      /note="L-strand Y effector site"
                      /citation=[5]
-     misc_binding    2064..2072
+     misc_binding    2060..2068
                      /bound_moiety="dnaA"
-     rep_origin      2160
-     old_sequence    2354..2355
+     rep_origin      2156
+     old_sequence    2350..2351
                      /note="revision according to (17)"
                      /citation=[2]
                      /citation=[17]
                      /replace="at"
-     old_sequence    2354
+     old_sequence    2350
                      /citation=[17]
-     old_sequence    2355
+     old_sequence    2351
                      /note="revision according to (16)"
                      /citation=[2]
                      /citation=[16]
                      /citation=[17]
                      /replace="t"
-     mobile_element  2773..3986
+     mobile_element  2769..3982
                      /mobile_element_type="transposon:Tn3"
-     repeat_region   2773..2810
+     repeat_region   2769..2806
                      /note="corresponds to one of the 38bp repeats found in Tn3
                      (bp 1-38 and complement (4920-4957))"
                      /rpt_type=inverted
-     gene            complement(2918..3778)
+     gene            complement(2914..3774)
                      /gene="bla"
-     CDS             complement(2918..3778)
+     CDS             complement(2914..3774)
                      /gene="bla"
                      /note="E-286"
                      /codon_start=1
@@ -100,30 +100,30 @@ FEATURES             Location/Qualifiers
                      EPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
-     mat_peptide     complement(2921..3709)
+     mat_peptide     complement(2917..3705)
                      /gene="bla"
                      /product="beta-lactamase"
-     sig_peptide     complement(3710..3778)
+     sig_peptide     complement(3706..3774)
                      /gene="bla"
-     regulatory      complement(3786..3790)
+     regulatory      complement(3782..3786)
                      /regulatory_class="ribosome_binding_site"
                      /note="Shine-Dalgarno sequence"
-     regulatory      complement(3813..3819)
+     regulatory      complement(3809..3815)
                      /regulatory_class="promoter"
                      /note="promoter P3 (6)"
-     misc_binding    complement(3893..3896)
+     misc_binding    complement(3889..3892)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3905..3908)
+     misc_binding    complement(3901..3904)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3910..3913)
+     misc_binding    complement(3906..3909)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3921..3924)
+     misc_binding    complement(3917..3920)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3936..3939)
+     misc_binding    complement(3932..3935)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3942..3945)
+     misc_binding    complement(3938..3941)
                      /bound_moiety="echinomycin"
-     misc_binding    complement(3956..3959)
+     misc_binding    complement(3952..3955)
                      /bound_moiety="echinomycin"
 ORIGIN
         1 gatcctctac gccggacgca tcgtggccgg catcaccggc gccacaggtg cggttgctgg
