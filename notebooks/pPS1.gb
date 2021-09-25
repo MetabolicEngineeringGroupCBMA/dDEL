@@ -31,11 +31,11 @@ FEATURES             Location/Qualifiers
                      /label="r1019"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     1..49
+     primer_bind     1..14
                      /label="f1019"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(1005..1040)
+     primer_bind     complement(1005..1019)
                      /label="r1019"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -68,11 +68,11 @@ FEATURES             Location/Qualifiers
                      /label="r2579"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     1040..1076
+     primer_bind     1061..1076
                      /label="part_part_f2579"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(3612..3651)
+     primer_bind     complement(3612..3639)
                      /label="part_part_r2579"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -100,11 +100,11 @@ FEATURES             Location/Qualifiers
                      /label="r1018"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     3622..3652
+     primer_bind     3640..3652
                      /label="part_f1018"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(4000..4039)
+     primer_bind     complement(4000..4021)
                      /label="part_r1018"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -124,11 +124,11 @@ FEATURES             Location/Qualifiers
                      /label="r400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     4643..4681
+     primer_bind     4664..4681
                      /label="part_f400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(5042..5081)
+     primer_bind     complement(5042..5063)
                      /label="part_r400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -161,11 +161,11 @@ FEATURES             Location/Qualifiers
                      /label="r810"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     5046..5081
+     primer_bind     5064..5081
                      /label="part_f810"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(5853..5891)
+     primer_bind     complement(5853..5873)
                      /label="part_r810"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -185,11 +185,11 @@ FEATURES             Location/Qualifiers
                      /label="r400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     5856..5899
+     primer_bind     5874..5899
                      /label="part_f400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(6248..6297)
+     primer_bind     complement(6248..6273)
                      /label="part_r400"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"

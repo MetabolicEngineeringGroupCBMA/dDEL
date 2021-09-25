@@ -128,23 +128,16 @@ FEATURES             Location/Qualifiers
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
                      /EC_number="4.2.1.19"
-                     /GO_component="GO:0005575 - cellular_component [Evidence
-                     ND]"
-                     /GO_function="GO:0004424 - imidazoleglycerol-phosphate
-                     dehydratase activity [Evidence IEA,IEA]"
-                     /GO_function="GO:0004424 - imidazoleglycerol-phosphate
-                     dehydratase activity [Evidence IMP] [PMID 14190241]"
-                     /GO_function="GO:0004424 - imidazoleglycerol-phosphate
-                     dehydratase activity [Evidence IDA] [PMID 341150]"
-                     /GO_function="GO:0016829 - lyase activity [Evidence IEA]"
-                     /GO_process="GO:0008652 - cellular amino acid biosynthetic
-                     process [Evidence IEA]"
-                     /GO_process="GO:0000105 - histidine biosynthetic process
-                     [Evidence IEA,IEA,IEA]"
-                     /GO_process="GO:0000105 - histidine biosynthetic process
-                     [Evidence IMP] [PMID 14190241]"
-                     /GO_process="GO:0000105 - histidine biosynthetic process
-                     [Evidence IDA] [PMID 341150]"
+                     /experiment="EXISTENCE:direct assay:GO:0000105 histidine
+                     biosynthetic process [PMID:341150]"
+                     /experiment="EXISTENCE:direct assay:GO:0004424
+                     imidazoleglycerol-phosphate dehydratase activity
+                     [PMID:341150]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0000105
+                     histidine biosynthetic process [PMID:14190241]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004424
+                     imidazoleglycerol-phosphate dehydratase activity
+                     [PMID:14190241]"
                      /note="Imidazoleglycerol-phosphate dehydratase; catalyzes
                      the sixth step in histidine biosynthesis; mutations cause
                      histidine auxotrophy and sensitivity to Cu, Co, and Ni
@@ -158,8 +151,8 @@ FEATURES             Location/Qualifiers
                      QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
                      KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
                      LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
-                     /ApEinfo_fwdcolor="#cfa9e5"
-                     /ApEinfo_revcolor="#cfa9e5"
+                     /ApEinfo_fwdcolor="#b4c9b8"
+                     /ApEinfo_revcolor="#b4c9b8"
 ORIGIN
         1 tattgtgagg gtcagttatt tcatccagat ataacccgag aggaaacttc ttagcgtctg
        61 ttttcgtacc ataaggcagt tcatgaggta tattttcgtt attgaagccc agctcgtgaa
